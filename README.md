@@ -21,40 +21,6 @@ professorNAV is capable of answering questions, generating code in various progr
 
 ---
 
-## 📁 Project Structure
-
-professorNAV/
-├── professornav/ ← Core Python package
-│ ├── init.py
-│ ├── core/ ← Core logic: RAG engine, embeddings, retrieval
-│ ├── agents/ ← LLM logic (prompt chains, GNSS tutor agent)
-│ ├── ingestion/ ← Book/document parser, embedding pipeline
-│ ├── interfaces/ ← CLI, Streamlit, FastAPI, etc.
-│ ├── utils/ ← Math helpers, time conversions, etc.
-│ └── constellations/ ← GNSS-specific logic per constellation
-│ ├── gps.py
-│ ├── glonass.py
-│ ├── galileo.py
-│ ├── beidou.py
-│ ├── qzss.py
-│ └── irnss.py
-│
-├── tests/ ← Unit tests (pytest-compatible)
-├── data/ ← Source books (excluded from VCS)
-├── db/ ← Vector DB files (.faiss, .chroma)
-├── app.py ← Main entry point (CLI/Web)
-├── .env ← API keys, secrets (not committed)
-├── .gitignore
-├── pyproject.toml ← Python project config (managed by uv)
-├── uv.lock ← Reproducible dependency lock file
-├── README.md
-└── LICENSE
-
-yaml
-Copy code
-
----
-
 ## 📚 Embedded GNSS Literature
 
 professorNAV uses a **vector database** populated with curated content from the most authoritative GNSS books and specifications:
