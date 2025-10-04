@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # 📡 professorNAV – The GNSS Code & Theory Tutor
 
 **professorNAV** is a RAG-powered (Retrieval-Augmented Generation) AI tutor and coding assistant for **Global Navigation Satellite Systems (GNSS)**. Whether you’re working with GPS, GLONASS, Galileo, BeiDou, QZSS, or IRNSS, professorNAV provides instant explanations of GNSS concepts and generates reliable, optimized code in **Python, C, C++**, and **Rust** for building positioning software, SDRs, and integrated navigation systems.
